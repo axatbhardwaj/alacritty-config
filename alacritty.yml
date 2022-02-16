@@ -57,6 +57,9 @@ colors:
 theme: Tlh
 
 window:
+  dimensions:
+     columns: 90
+     lines: 35
   opacity: 0.1
 
 # Shell
