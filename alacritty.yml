@@ -1,0 +1,71 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
+  name: tlh
+  author: ""
+  primary:
+    background: "#101010"
+    foreground: "#66ff66"
+  cursor:
+    text: "#101010"
+    cursor: "#66ff66"
+  normal:
+    black: "#1c1c1c"
+    red: "#d81860"
+    green: "#60ff60"
+    yellow: "#f9fd75"
+    blue: "#4695c8"
+    magenta: "#a78edb"
+    cyan: "#43afce"
+    white: "#f3ebe2"
+  bright:
+    black: "#4d4d4d"
+    red: "#f00060"
+    green: "#70ff70"
+    yellow: "#f9fd80"
+    blue: "#5a9dc8"
+    magenta: "#b29fdb"
+    cyan: "#69b8ce"
+    white: "#eeeeee"
+theme: Tlh
+
+window:
+  opacity: 0.1
+
+# Shell
+#
+# You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
+# Entries in shell.args are passed unmodified as arguments to the shell.
+\n\nshell:\n program: /bin/bash\n args:\n - --login\n
+shell:
+  program: /bin/fish
+  args:
+    - --login
+#    - neofetch
